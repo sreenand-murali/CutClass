@@ -1,0 +1,107 @@
+.App 
+{
+  filter: drop-shadow(.5rem .5rem .5rem #000000);
+  padding: 0;
+  padding-top: 1rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  font-family: 'Geologica', sans-serif;
+  min-height: 100vh;
+  background-color: #18161b;
+  text-align: center;
+  color: rgb(217, 191, 234);
+  
+}
+
+.main
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  justify-content: space-around;
+  
+}
+
+
+.classRatio{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.slash{
+  font-size: 1.5em;
+}
+
+.inputBox{
+  width: 3em;
+  height: 3em;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 1em;
+  text-align: center;
+  background-color: #5a287b;
+  border-width: 0;
+  filter: drop-shadow(.5rem .5rem 1.5rem #000000);
+  
+  
+}
+
+
+.targetPercentage{
+  display: flex;
+  gap: .5em;
+  font-size: .7em;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  font-size: .5em;
+  border-radius: .4em;
+  border-width: 0;
+  letter-spacing: .2rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: .5em .9em;
+  margin: 2em;
+  font-weight: 400;
+  color: #000000;
+  background-color: #5a287b;
+  filter: drop-shadow(.5rem .5rem 1.5rem #000000);
+
+}
+
+.answerDiv{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.mainPercentage{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-column:1/2;
+  grid-row: 1/-1;
+
+}
+.feedbackText{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: .7rem;
+  padding: .4rem 1rem;
+  text-align: left;
+  font-weight: 400;
+  justify-content: space-around;
+
+}
+.atndWilBec{
+  font-size: 1rem;
+}
+
+
+.inputBox:focus{
+  outline: none;
+}
